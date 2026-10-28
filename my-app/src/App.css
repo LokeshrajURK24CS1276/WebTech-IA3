@@ -1,0 +1,12 @@
+:root {
+  --bg-color: #f1f5f9; --card-bg: #ffffff; --border-color: #e2e8f0;
+  --primary-color: #1e3a8a; --secondary-color: #e2e8f0; --text-main: #0f172a;
+  --text-muted: #64748b; --link-color: #1d4ed8; --danger-color: #b91c1c;
+  --highlight-color: #fef3c7;
+}
+body { background-color: var(--bg-color); color: var(--text-main); }
+h1, h4 { color: var(--primary-color); }
+.card { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 6px; }
+.btn-primary { background-color: var(--primary-color); border-color: var(--primary-color); color: #ffffff; }
+.btn-secondary { background-color: var(--secondary-color); border-color: var(--border-color); color: var(--text-main); }
+.btn-danger { background-color: var(--danger-color); border-color: var(--danger-color); }
